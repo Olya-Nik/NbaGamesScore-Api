@@ -1,0 +1,59 @@
+<header class="hero bye-image flex flex-centered">
+    <h1 class="hero-bye"></h1>
+</header>
+<table class="team_table" border="1" bgcolor="#000000" width="100%" bordercolor="00FF00">
+
+    <tr>
+        <td>
+            NAME
+        </td>
+        <td>
+            CITY
+        </td>
+        <td>
+            DIVISION
+        </td>
+    </tr>
+
+    <tr>
+        <td class='teamname'>{{theTeam.name}}</td>
+
+        <td class='city'>{{theTeam.city}}</td>
+
+        <td class='division'>{{theTeam.division}}</td>
+
+    </tr>
+   
+</table>
+
+<table class="team_table" border="1" bgcolor="#000000" width="100%" bordercolor="00FF00">
+
+    <tr>
+        <td>
+            DATE
+        </td>
+        <td>
+            STATUS
+        </td>
+        <td>
+            VISITOR TEAM
+        </td>
+    </tr>
+ {{#each game}}
+    <tr>
+        <td class='date'>{{this.date}}</td>
+
+        <td class='status'>{{this.status}}</td>
+
+        <td class='visitor'>{{this.visitor_team.name}}</td>
+
+    </tr>
+ {{/each}}  
+</table>
+
+
+<button id="see_games" class="see_games">see games</button>
+
+<div class="bye">
+
+</div>

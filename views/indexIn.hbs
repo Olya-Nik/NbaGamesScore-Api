@@ -1,0 +1,29 @@
+<table border="1" bgcolor="#000000" width="100%" bordercolor="00FF00">
+    {{#if data}}
+    <tr>
+        <td>
+            NAME
+        </td>
+        <td>
+            POSITION
+        </td>
+        <td>
+            TEAM
+        </td>
+    </tr>
+    {{/if}}
+    {{#each data}}
+    <tr>
+        <td class='first_name'>{{this.first_name}} {{this.last_name}}</td>
+
+        <td class='position'>{{this.position}}</td>
+
+        <td class='team'>
+            <a id="team" href={{this.team.id}}>{{this.team.name}}</a>
+        </td>
+
+    </tr>
+
+    {{/each}}
+</table>
+

@@ -1,0 +1,193 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Long+Cang';
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  color: #00FF00
+}
+
+a {
+  text-decoration: none;
+}
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  width: 100%;
+}
+
+.light {
+  background-color: #252424;
+  color: #433629;
+}
+
+.light-link {
+  color: #428bca;
+}
+
+.dark {
+  background-color: #433629;
+  color: #fefefe;
+}
+
+.team-image {
+  background: black url("/image/image.jpg") no-repeat center center fixed;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bye-image {
+  background: black url("/image/200.webp") no-repeat center center fixed;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero {
+  height: 80vh;
+  max-height: 600px;
+}
+
+.hero-heading {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 8em;
+  color: #00FF00;
+}
+.hero-bye {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3em;
+  color: #00FF00;
+}
+.row {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.table_list {
+  color: #00FF00
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+
+
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.errors {
+  color: #ff0000;
+  margin: 1em 0 2em 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-centered {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row {
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.flex-to-sides {
+  justify-content: space-around;
+}
+
+.fill {
+  flex-grow: 1;
+}
+
+
+.fancy-text {
+  font-family: 'Lobster Two', cursive;
+  color: #00FF00
+}
+
+.button {
+  margin: 3em auto;
+  padding: 2em;
+  width: 100%;
+  max-width: 60%;
+  border-radius: .5em;
+  border: none;
+  outline: none;
+  color: #00FF00
+}
+
+  .button:hover {
+    opacity: 0.88;
+  }
+
+a {
+  color: #00FF00
+}
+
+a:visited {
+  color: #00FF00
+}
+.team_table {
+  color: #00FF00
+}
+
+.see_games {
+  color: #000000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #00FF00
+}
