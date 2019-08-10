@@ -15,7 +15,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  color: #00FF00
+  color: red
 }
 
 a {
@@ -64,8 +64,17 @@ form {
   background-size: cover;
 }
 
+.leb-image {
+  background: black url("/image/dow.jpg") no-repeat center center fixed;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .bye-image {
-  background: black url("/image/200.webp") no-repeat center center fixed;
+  background: black url("/image/ap.jpg") no-repeat center center fixed;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -81,12 +90,17 @@ form {
 .hero-heading {
   font-family: 'Permanent Marker', cursive;
   font-size: 8em;
-  color: #00FF00;
+  /* color: red;
+  -webkit-text-stroke-width: 20;
+  -webkit-text-stroke-color: blue; */ 
+  color: red;
+  -webkit-text-stroke: .07em rgba(0,0,0,.5);
+  text-shadow: .07em 0 blue;
 }
 .hero-bye {
   font-family: 'Permanent Marker', cursive;
   font-size: 3em;
-  color: #00FF00;
+  color: red;
 }
 .row {
   padding-top: 3em;
@@ -94,7 +108,7 @@ form {
 }
 
 .table_list {
-  color: #00FF00
+  color: red
 }
 
 .container {
@@ -176,18 +190,24 @@ form {
   }
 
 a {
-  color: #00FF00
+  color: red
 }
 
 a:visited {
-  color: #00FF00
+  color: red
 }
 .team_table {
-  color: #00FF00
+  color: red
 }
 
 .see_games {
   color: #000000;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: #00FF00
+}
+
+.pl {
+  background-color:blue;
+  color: #000000;
+  font-family: 'Permanent Marker', cursive
 }

@@ -38,22 +38,26 @@
         <td>
             VISITOR TEAM
         </td>
+        <td>
+            SCORE HOME
+        </td>
+        <td>
+            SCORE VISITOR
+        </td>
     </tr>
  {{#each game}}
     <tr>
         <td class='date'>{{this.date}}</td>
 
         <td class='status'>{{this.status}}</td>
-
+        
         <td class='visitor'>{{this.visitor_team.name}}</td>
+        <td class='homescore'>{{this.home_team_score}}</td>
+        <td class='visitor'>{{this.visitor_team_score}}</td>
+
 
     </tr>
  {{/each}}  
 </table>
 
 
-<button id="see_games" class="see_games">see games</button>
-
-<div class="bye">
-
-</div>
