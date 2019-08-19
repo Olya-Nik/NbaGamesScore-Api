@@ -4,5 +4,5 @@
 
 ## to start
 
-```npm i```
+```npm i``` <br>
 ```npm start```
